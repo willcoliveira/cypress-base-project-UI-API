@@ -1,0 +1,29 @@
+{
+    "baseUrl": "https://appqoverme-ui.sbx.qover.io/",
+    "chromeWebSecurity": false,
+    "integrationFolder": "cypress/tests/",
+    "fixtureFolder": "cypress/fixtures/",
+    "pluginsFile": "cypress/plugins/index.js",
+    "supportFile": "cypress/support/index.js",
+    "blockHosts": ["*atlassian.net", "qover001.atlassian.net"],
+    "numTestsKeptInMemory": 1,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "video": false,
+    "defaultCommandTimeout": 10000,
+    "pageLoadTimeout": 120000,
+    "screenshotsFolder": "cypress/reports/assets/",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports/",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+    "retries": {
+      "runMode": 1,
+      "openMode": 0
+    }
+}
+
+  

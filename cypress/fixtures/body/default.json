@@ -1,0 +1,40 @@
+{
+  "refs": {
+    "country": "BE"
+  },
+  "settings": {
+    "timezone": "Europe/Brussels",
+    "language": "fr"
+  },
+  "policyholder": {
+    "firstName": "Felipa",
+    "lastName": "Lockman",
+    "title": "Mr",
+    "gender": "GENDER_MALE",
+    "email": "test+bikeAPIVI@qover.com",
+    "phone": "+3211239011",
+    "address": {
+      "country": "BE",
+      "city": "Trantowshire",
+      "zip": "9000",
+      "street": "Vilma Wall",
+      "number": "816/4",
+      "box": "z-872"
+    },
+    "entityType": "ENTITY_TYPE_PERSON",
+    "birthdate": "1969-05-18"
+  },
+  "risk": {
+    "make": "Éddy Marçkx",
+    "model": "Enduracè CF - SL Dïsc 8.0",
+    "type": "TYPE_RACE_BIKE",
+    "newBike": true,
+    "bikePurchaseDate": "2021-06-08",
+    "originalValue": 25000,
+    "serialNumber": "TR-HTÑ 3848 072"
+  },
+  "terms": {
+    "variant": "VARIANT_THEFT_DAMAGE_ASSISTANCE"
+  },
+  "startDate": "2021-10-27T22:00:00.000Z"
+}

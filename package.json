@@ -1,0 +1,38 @@
+{
+  "name": "qoverautomationchallenge",
+  "version": "1.0.0",
+  "description": "This project contains the resolution for test automation challenge from qover",
+  "main": "index.js",
+  "scripts": {
+    " --- CYPRESS SCRIPTS ---- ": "",
+    "cy:open": "cypress open",
+    "test:ui": "cypress run --browser chrome --spec 'cypress/tests/ui/**spec.js'",
+    "test:ui:headless": "cypress run --browser chrome --headless --spec 'cypress/tests/ui/**spec.js'",
+    "test:api": "cypress run --spec 'cypress/tests/api/**spec.js'",
+    "test:ui:headless:mocha": "yarn cy:clean:reports; cypress run --browser chrome --headless --spec 'cypress/tests/ui/**spec.js'; yarn cy:reports",
+    "test:api:mocha": "yarn cy:clean:reports; cypress run --spec 'cypress/tests/api/**spec.js'; yarn cy:reports",
+    " --- MOCHAWESOME REPORT SCRIPTS ---- ": "",
+    "cy:reports": "yarn cy:merge:reports; yarn cy:final:reports",
+    "cy:clean:reports": "rm -rf cypress/reports/*",
+    "cy:merge:reports": "mochawesome-merge cypress/reports/*.json > cypress/reports/output.json",
+    "cy:final:reports": "marge cypress/reports/output.json --reportDir cypress/reports/"
+  },
+  "keywords": [
+    "Automation",
+    "JS",
+    "Cypress",
+    "frontend"
+  ],
+  "author": "William Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.6.0",
+    "cypress-waitfor": "^1.1.0",
+    "cypress-xpath": "^1.6.2",
+    "dayjs": "^1.10.7",
+    "mocha": "^9.1.3",
+    "mochawesome": "^6.3.1",
+    "mochawesome-merge": "^4.2.0",
+    "yarn": "^1.22.17"
+  }
+}
