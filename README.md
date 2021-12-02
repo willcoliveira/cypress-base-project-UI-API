@@ -1,5 +1,5 @@
-# QOVER Business Case
-QOVER Automation business case resolution PART 2 is using [Cypress](https://www.cypress.io/) as it's testing tool. The API documentation is available [here](https://docs.cypress.io/api/api/table-of-contents.html). So, there are 2 ways of running tests using Cypress either using the UI or using the command line (script mode).
+# Business Case
+This Automation business case resolution PART 2 is using [Cypress](https://www.cypress.io/) as it's testing tool. The API documentation is available [here](https://docs.cypress.io/api/api/table-of-contents.html). So, there are 2 ways of running tests using Cypress either using the UI or using the command line (script mode).
 
 #### How to install this project
 First of all it will be necessary to install and check node version in your machine. This is the only pre-requisite to run this project. So, in order to have npm and Node.js installed you can download and read the more instructions in [node](https://nodejs.org/en/download/).
@@ -16,8 +16,8 @@ After the completing the installation. Open and go to the terminal for your pref
 After the completed node's installation, you will need to clone this current repo.
 > ```bash
 > # Git Link
-> git clone https://github.com/willcoliveira/caseqover.git
-> git@github.com:willcoliveira/caseqover.git
+> git clone https://github.com/willcoliveira/cypress-base-project-UI-API.git
+> git@github.com:willcoliveira/cypress-base-project-UI-API.git
 > ```
 
 #### Installing the dependencies
